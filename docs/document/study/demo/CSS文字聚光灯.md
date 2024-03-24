@@ -37,7 +37,7 @@
       font-weight: 700;
       line-height: 150px;
       animation: move 6s linear infinite;
-      background: linear-gradient(to bottom, #ff0000, #00ff00);
+      background: linear-gradient(to right, #ff0000,#ffffff,  #0000ff);
       clip-path: circle(60px at 100% 50%);
       background-clip: text;
     }
