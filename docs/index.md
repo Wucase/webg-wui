@@ -4,7 +4,7 @@ layout: home
 hero:
   name: VitePress
   text: Vite和Vue强力驱动的静态网页生成器
-  tagline: 简单、强大、快速、满足你一直想要的现代SSG框架
+  tagline: 简单、1强大、快速、满足你一直想要的现代SSG框架
   image:
     src: /logo.png
     alt: VitePress中文网
