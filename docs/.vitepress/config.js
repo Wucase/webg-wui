@@ -1,6 +1,6 @@
 export default {
   title: 'Web-G',
-  base: '/webg-wui/',
+  base: '/webg-wui/docs/',
   themeConfig: {
     lang: 'zh-CN',
     logo: '/icons/car.svg',
