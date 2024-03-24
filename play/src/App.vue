@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Alarm } from "@vicons/ionicons5";
+import { Alarm } from '@vicons/ionicons5'
 </script>
 
 <template>
