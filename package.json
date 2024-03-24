@@ -1,0 +1,31 @@
+{
+  "name": "wui-v3-ts",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pnpm -C play dev",
+    "doc:dev": "pnpm -C docs dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@w-ui/components": "workspace:^",
+    "@w-ui/theme-chalk": "workspace:^",
+    "@w-ui/utils": "workspace:^",
+    "typescript": "^5.4.3",
+    "vue": "^3.4.21"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^7.3.1",
+    "@typescript-eslint/parser": "^7.3.1",
+    "@vue/eslint-config-typescript": "^13.0.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-vue": "^9.23.0",
+    "sass": "^1.72.0",
+    "unplugin-vue-define-options": "^1.4.2"
+  }
+}
