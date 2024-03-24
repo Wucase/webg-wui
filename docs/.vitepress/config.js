@@ -16,7 +16,12 @@ export default {
         link: '/starter/starter-install',
         activeMatch: '/starter/'
       },
-      { text: '开发文档', link: '/document/index', activeMatch: '/document/' }
+      { text: '开发文档', link: '/document/index', activeMatch: '/document/' },
+      {
+        text: '学习文档',
+        link: '/document/study/ui/⼀.搭建monorepo环境',
+        activeMatch: '/document/study/ui'
+      }
     ],
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
@@ -36,11 +41,40 @@ export default {
       indexName: 'index'
     },
     docFooter: {
-      prev: 'Pagina prior',
-      next: 'Proxima pagina'
+      prev: 'Prev',
+      next: 'Next'
     },
     sidebar: {
-      '/starter/': [
+      '/document/': [
+        {
+          text: '学习文档',
+          collapsed: true,
+          items: [
+            {
+              text: 'W-UI',
+              collapsed: true,
+              link: '/document/study/ui/⼀.搭建monorepo环境',
+              items: [
+                {
+                  text: '⼀.搭建monorepo环境',
+                  link: '/document/study/ui/⼀.搭建monorepo环境'
+                },
+                {
+                  text: '二.创建组件测试环境',
+                  link: '/document/study/ui/二.创建组件测试环境'
+                },
+                {
+                  text: '三.创建组件测试环境',
+                  link: '/document/study/ui/三.创建组件测试环境'
+                },
+                {
+                  text: '四.scss编写',
+                  link: '/document/study/ui/四.scss编写'
+                }
+              ]
+            }
+          ]
+        },
         {
           text: '快速开始',
           collapsed: false,

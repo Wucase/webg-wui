@@ -1,7 +1,7 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import Icon from '@w-ui/components/icon'
-import '@w-ui/theme-chalk/src/icon.scss'
+import '@w-ui/theme-chalk/src/index.scss'
 
 const plugins = [Icon]
 
