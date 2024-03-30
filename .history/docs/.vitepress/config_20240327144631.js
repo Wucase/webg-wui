@@ -120,53 +120,6 @@ export default {
                 //   link: '/document/study/ui/七.编辑器配置'
                 // }
               ]
-            },
-            {
-              text: 'js Tool',
-              collapsed: true,
-              link: '/document/study/utils/js/数组方法reduce',
-              items: [
-                {
-                  text: '数组方法reduce',
-                  link: '/document/study/utils/js/数组方法reduce',
-                }
-                {
-                  text: '常用数组方法',
-                  link: '/document/study/utils/js/常用数组方法'
-                },
-                {
-                  text: '复制粘贴（vue）',
-                  link: '/document/study/utils/js/复制粘贴（vue）'
-                },
-                {
-                  text: '生成随机颜色',
-                  link: '/document/study/utils/js/生成随机颜色'
-                },
-                {
-                  text: '文件下载（vue）',
-                  link: '/document/study/utils/js/文件下载（vue）'
-                },
-                {
-                  text: '字符串常用方法',
-                  link: '/document/study/utils/js/字符串常用方法'
-                },
-                // {
-                //   text: '四.scss编写',
-                //   link: '/document/study/ui/四.scss编写'
-                // },
-                // {
-                //   text: '五.Eslint配置',
-                //   link: '/document/study/ui/五.Eslint配置'
-                // },
-                // {
-                //   text: '六.Prettier配置',
-                //   link: '/document/study/ui/六.Prettier配置'
-                // },
-                // {
-                //   text: '七.编辑器配置',
-                //   link: '/document/study/ui/七.编辑器配置'
-                // }
-              ]
             }
           ]
         },
