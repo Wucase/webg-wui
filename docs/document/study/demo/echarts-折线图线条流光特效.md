@@ -133,7 +133,7 @@ import * as echarts from "echarts";
           ],
           series: [
             {
-              name: "webg的折线图",
+              name: "webg折线图",
               type: "line",
               smooth: 0, //可设置弧度，0-1
               lineStyle: {

@@ -17,6 +17,8 @@
     "@w-ui/components": "workspace:^",
     "@w-ui/theme-chalk": "workspace:^",
     "@w-ui/utils": "workspace:^",
+    "echarts": "^5.5.0",
+    "echarts-gl": "^2.0.9",
     "typescript": "^5.4.3",
     "vue": "^3.4.21"
   },
