@@ -1,0 +1,15 @@
+<template>
+  <div class="">
+3333
+  </div>
+</template>
+
+<script setup lang="ts">
+
+
+</script>
+
+<style scoped lang="scss">
+
+
+</style>

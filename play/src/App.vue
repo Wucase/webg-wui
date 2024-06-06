@@ -28,9 +28,10 @@ console.log('+++', data)
 
 <template>
   <div>
-    <w-icon color="blue" :size="20"> <Alarm></Alarm></w-icon>
+<!--    <w-icon color="blue" :size="20"> <Alarm></Alarm></w-icon>-->
 
-    <w-tree :data="data"></w-tree>
+<!--    <w-tree :data="data"></w-tree>-->
+    <router-view />
   </div>
 </template>
 

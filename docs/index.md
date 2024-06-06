@@ -8,15 +8,20 @@ hero:
   tagline: 基于 VitePress 的个人前端导航页面模板
   image:
     src: /images/myicon.jpg
-    alt: webG
+    alt: webG物语
+    width: 250px
+    style: {border-radius: 50%}
   actions:
-    - text: webG
-      link: https://wucase.github.io/webg-wui/
+    - text: webG物语
+      link: https://notes.fe-mm.com
     - text: 前端导航
       link: /nav/
       theme: alt
     # - text: mmPlayer
     #   link: https://netease-music.fe-mm.com
+    # - text: 测试页
+    #   link: /test
+    #   theme: alt
 features:
   - icon: 📖
     title: 前端物语

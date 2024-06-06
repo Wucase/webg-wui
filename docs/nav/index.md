@@ -1,6 +1,7 @@
 ---
 layoutClass: m-nav-layout
 outline: [2, 3, 4]
+width: 70%
 ---
 
 <script setup>
@@ -12,5 +13,5 @@ import { NAV_DATA } from './data'
 
 <MNavLinks v-for="{title, items} in NAV_DATA" :title="title" :items="items"/>
 
-<br />
 
+<br />
